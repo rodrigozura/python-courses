@@ -1,0 +1,7 @@
+# *args es una variable que toma todos los argumentos que se le pasen a la funcion
+def sum_numbers(*args):
+    return sum(args)
+
+print(sum_numbers(1,2,3,4,5))
+print(sum_numbers(1,2))
+print(sum_numbers(1,2,3,4,5,7,8,9,10))
