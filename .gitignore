@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / PyCharm config
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Images (optional: uncomment if you want to ignore them)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+
+# Test/coverage/cache tools
+.coverage
+.cache/
+.tox/
+.mypy_cache/
+.pytest_cache/
+
+# Ignore course backup or export folders
+/export/
+/backups/
+
+# Ignore secret files
+*.env
+secrets.json
