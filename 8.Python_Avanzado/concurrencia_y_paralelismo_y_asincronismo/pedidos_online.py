@@ -51,9 +51,24 @@ async def process_order(order_id, items):
 
 async def main():
     orders = [
-        {'order_id': 1, 'items': [{'name': 'Laptop', 'price': 1000}, {'name': 'Mouse', 'price': 50}]},
-        {'order_id': 2, 'items': [{'name': 'Teclado', 'price': 80}, {'name': 'Monitor', 'price': 300}]},
-        {'order_id': 3, 'items': [{'name': 'Smartphone', 'price': 700}, {'name': 'Funda', 'price': 20}]}
+        {
+            'order_id': 1, 
+            'items': [
+                {'name': 'Laptop', 'price': 1000}, 
+                {'name': 'Mouse', 'price': 50}]
+        },
+        {
+            'order_id': 2, 
+            'items': [
+                {'name': 'Teclado', 'price': 80}, 
+                {'name': 'Monitor', 'price': 300}]
+        },
+        {
+            'order_id': 3, 
+            'items': [
+                {'name': 'Smartphone', 'price': 700}, 
+                {'name': 'Funda', 'price': 20}]
+        }
     ]
 
     #Procesar múltiples órdenes concurrentemente
